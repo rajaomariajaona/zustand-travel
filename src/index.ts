@@ -2,6 +2,7 @@ import type {
   StateCreator,
   StoreMutatorIdentifier,
   StoreApi,
+  ExtractState,
 } from 'zustand/vanilla';
 import {
   Travels,
@@ -96,9 +97,12 @@ type StoreTravelSetState<S> = S extends {
     : {};
 
 type StoreTravel<S> = StoreTravelSetState<S> & {
-  getControls: () =>
-    | TravelsControls<S, false>
-    | ManualTravelsControls<S, false>;
+  getControls: <
+    F extends boolean = false,
+    A extends boolean = true,
+  >() => A extends true
+    ? TravelsControls<ExtractState<S>, F>
+    : ManualTravelsControls<ExtractState<S>, F>;
 };
 
 export type Controls<
