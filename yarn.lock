@@ -3919,10 +3919,9 @@ tr46@^6.0.0:
   dependencies:
     punycode "^2.3.1"
 
-travels@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/travels/-/travels-1.0.0.tgz#b587d72af129632e4173d408aae9415e00220be1"
-  integrity sha512-v63CqusZC0DZa/7K2DF84W+MaV9lp40We+1q8zOMa1X0nGYCwcWtJ8wFxZRbaiPazU7/2mLYMIvIjfqOZh29hA==
+travels@rajaomariajaona/travels#version:
+  version "1.2.0"
+  resolved "https://codeload.github.com/rajaomariajaona/travels/tar.gz/9ba5f317e2b9876754ae86e52f07b1164a0edd96"
 
 ts-api-utils@^2.1.0:
   version "2.1.0"
