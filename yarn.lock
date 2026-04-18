@@ -3921,7 +3921,7 @@ tr46@^6.0.0:
 
 travels@rajaomariajaona/travels#version:
   version "1.2.0"
-  resolved "https://codeload.github.com/rajaomariajaona/travels/tar.gz/9ba5f317e2b9876754ae86e52f07b1164a0edd96"
+  resolved "https://codeload.github.com/rajaomariajaona/travels/tar.gz/6d1df5b0b809b20d4dedd9ba590f1b45c1b15bf0"
 
 ts-api-utils@^2.1.0:
   version "2.1.0"
