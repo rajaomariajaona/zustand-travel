@@ -34,7 +34,6 @@
     "dist"
   ],
   "scripts": {
-    "postinstall": "cd node_modules/travels && yarn install && yarn build && cd ../..",
     "test": "vitest run",
     "clean": "rimraf dist",
     "type-check": "tsc --skipLibCheck",
